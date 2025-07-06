@@ -32,10 +32,14 @@ elif century_slider > 1500:
 ###########################################################
 
 data = pd.read_csv('data/test.csv', sep=',')
+data.sort_values(by='Jahr', inplace=True)
 
 start = century_slider 
 ende = century_slider + 100
 filter = list(range(start,ende))
 
-data_filtered = data[data['jahr'].isin(filter)]
+data_filtered = data[data['Jahr'].isin(filter)]
 st.write(data_filtered)
+
+
+fach = ['Test','Geschichte']
