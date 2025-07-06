@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 
-data = pd.read_csv('data/test.csv')
-
+fach =['Mathe','Physik','Chemie']
 
 
 auswahl_dict = {-4000:'4000 v. Chr.',
@@ -28,5 +28,17 @@ auswahl_zahl = list(auswahl_dict.keys())
 auswahl = st.select_slider('Wähle einen Zeitraum',options=auswahl_texte, value='20. Jhdt.')
 
 st.header(auswahl)
-st.subheader(f"{reverse_auswahl_dict[auswahl]+1} bis {reverse_auswahl_dict[auswahl]+100}")
+start = reverse_auswahl_dict[auswahl]+1
+ende = reverse_auswahl_dict[auswahl]+100
+st.subheader(f"{start} bis {ende}")
 
+
+
+fig, ax = plt.subplots(figsize=(5, 5))
+
+ax.xaxis.tick_top()
+ax.set_xticklabels(fach, rotation=45)
+
+ax.set_ylim(ende,start)
+
+st.pyplot(fig)
