@@ -33,12 +33,11 @@ ende = reverse_auswahl_dict[auswahl]+100
 st.subheader(f"{start} bis {ende}")
 
 
+data_mathe = pd.read_csv('data/mathe.csv')
+st.write(data_mathe)
+data_mathe["x"] = 1
 
-fig, ax = plt.subplots(figsize=(5, 5))
-
-ax.xaxis.tick_top()
-ax.set_xticklabels(fach, rotation=45)
-
-ax.set_ylim(ende,start)
+fig, ax = plt.subplots()
+ax.scatter(data_mathe["x"],data_mathe["Jahr"])
 
 st.pyplot(fig)
