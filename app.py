@@ -41,5 +41,3 @@ filter = list(range(start,ende))
 data_filtered = data[data['Jahr'].isin(filter)]
 st.write(data_filtered)
 
-
-fach = ['Test','Geschichte']
