@@ -4,17 +4,26 @@ import numpy as np
 
 st.title('Zeitleiste')
 
-# Container für die Zeitleiste
-st.markdown("### Zeitleiste")
 
-# Erzeuge die Jahre von -4000 bis 2050
-years = list(range(-4000, 2051, 50))  # alle 50 Jahre zur besseren Übersicht
+# Century
+century = list(range(-4000,2200,100))
 
-# Erzeuge HTML-Elemente für die Zeitleiste
-timeline_html = "<div style='white-space: nowrap; overflow-x: auto; padding: 10px; border-bottom: 2px solid #ccc;'>"
-for year in years:
-    timeline_html += f"<span style='display: inline-block; width: 80px; text-align: center;'>{year}</span>"
-timeline_html += "</div>"
+century_slider = st.select_slider('Jahrhundert',options=century,value=2000)
 
-# Zeige die Zeitleiste mit HTML
-st.markdown(timeline_html, unsafe_allow_html=True)
+if 0 < century_slider <= 1500:
+    act_label = str(abs(century_slider))
+    act_cent = st.container()
+    act_cent.title(f"{act_label} n. Chr.")
+
+elif century_slider == 0:
+    act_cent.title(Zeitwende)
+
+elif century_slider < 0:
+    act_label = str(abs(century_slider))
+    act_cent = st.container()
+    act_cent.title(f"{act_label} v. Chr.")
+
+elif century_slider > 1500:
+    act_label = str(abs(century_slider))
+    act_cent = st.container()
+    act_cent.title(f"{act_label}er Jahre")
