@@ -21,17 +21,20 @@ def Header(jhdt,anfang,ende):
 
 def Badge_Fach(fach):
     if fach == 'Mathe':
-        st.badge('MATHE', icon=":material/Lightbulb:",color='blue')
+        st.badge('MATHE',color='blue')
     if fach == 'Physik':
-        st.badge('PHYSIK', icon=":material/thumb_up:",color='yellow')
+        st.badge('PHYSIK', color='orange')
+
+
+
+
+
 
 with tab21:
     Header(jhdt_df['Bezeichnung'][0], jhdt_df['Anfang'][0], jhdt_df['Ende'][0])
-    for event in events_df.itertuples():
-        st.subheader(f'{event.Jahr} - {event.Ereignis}')
-        st.write(event.Infotext)
-        Badge_Fach(event.Fach)
-        st.divider()
+    df_filt = events_df[events_df['Jahr'] >= jhdt_df['Anfang'][0]]
+    df_filt = df_filt[df_filt['Jahr'] <= jhdt_df['Ende'][0]]
+    st.write(df_filt)
 
 
 with tab20:
