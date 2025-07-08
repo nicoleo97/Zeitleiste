@@ -24,18 +24,25 @@ def Badge_Fach(fach):
         st.badge('MATHE',color='blue')
     if fach == 'Physik':
         st.badge('PHYSIK', color='orange')
+    else:
+        st.badge(fach, color='gray')
 
+def Filter(events_df,anfang,ende):
+    df_filt = events_df[events_df['Jahr'] >= anfang]
+    df_filt = df_filt[df_filt['Jahr'] <= ende]
+    return df_filt
 
-
+def Inputs(events_df):
+    for event in events_df.itertuples():
+        st.subheader(f"{event.Jahr} - {event.Ereignis}")
+        st.write(event.Infotext)
+        Badge_Fach(event.Fach)
 
 
 
 with tab21:
     Header(jhdt_df['Bezeichnung'][0], jhdt_df['Anfang'][0], jhdt_df['Ende'][0])
-    df_filt = events_df[events_df['Jahr'] >= jhdt_df['Anfang'][0]]
-    df_filt = df_filt[df_filt['Jahr'] <= jhdt_df['Ende'][0]]
-    st.write(df_filt)
-
+    Inputs(Filter(events_df, jhdt_df['Anfang'][0], jhdt_df['Ende'][0]))
 
 with tab20:
     Header(jhdt_df['Bezeichnung'][1], jhdt_df['Anfang'][1], jhdt_df['Ende'][1])
