@@ -57,9 +57,9 @@ def Badge_Fach(fach):
     elif fach == 'Geschichte':
         st.badge('GESCHICHTE', color='green')
     elif fach == 'BE':
-        st.badge('KUNST & MUSIK', color='violet')
+        st.badge('KUNST', color='violet')
     elif fach == 'Musik':
-        st.badge('KUNST & MUSIK', color='violet')    
+        st.badge('MUSIK', color='violet')    
     else:
         st.badge(fach, color='gray')
 
