@@ -5,3 +5,9 @@ Bezeichnung,Anfang,Ende,Short
 18. Jahrhundert,1701,1800,18.Jhdt.
 17. Jahrhundert,1601,1700,17.Jhdt.
 16. Jahrhundert,1501,1600,16.Jhdt.
+15. Jahrhundert,1401,1500,15.Jhdt.
+14. Jahrhundert,1301,1400,14.Jhdt.
+13. Jahrhundert,1201,1300,13.Jhdt.
+12. Jahrhundert,1101,1200,12.Jhdt.
+11. Jahrhundert,1001,1100,11.Jhdt.
+10. Jahrhundert,901,1000,10.Jhdt.

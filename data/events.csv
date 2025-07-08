@@ -1,10 +1,73 @@
 Jahr,Fach,Ereignis,Infotext
-1602,Mathe,Erstes Mathebuch,"Ein berühmtes Mathebuch wurde veröffentlicht"
-1610,Physik,Fallgesetz,"Galileo beschreibt das Fallgesetz"
-1655,Mathe,Integralrechnung,"Newton und Leibniz entwickeln die Integralrechnung"
-1689,Physik,Gravitation,"Newtons Gravitationstheorie"
-1700,Physik,Optik,"Newton entwickelt Theorie des Lichts"
-1808,Mathe,etwas,Info
-1997,Other,Genius,etwas
-2001,Other,Baby,Boy
-1440,Deutsch,Erfindung des Buchdrucks,Johannes Gutenberg erfindet den Buchdruck mit beweglichen Lettern
+1505,Mathe,Regiomontanus veröffentlicht trigonometrische Tabellen,Grundlage für astronomische Berechnungen
+1596,Mathe,Kepler veröffentlicht Mysterium Cosmographicum,Begründen der mathematischen Astronomie
+1543,Physik,Copernicus veröffentlicht De revolutionibus,Heliozentrisches Weltbild begründet
+1609,Physik,Galileo beobachtet Sonnenflecken,Erste Benutzung des Fernrohrs für wissenschaftliche Beobachtung
+1517,Geschichte,Luther schlägt 95 Thesen an,Auslöser der Reformation
+1588,Geschichte,Spanische Armada unterliegt England,Wendepunkt im europäischen Machtgefüge
+1513,Deutsch,Luther übersetzt Bibel ins Deutsche,Vereinheitlichung der deutschen Schriftsprache
+1590,Deutsch,Shakespeare schreibt seine frühen Dramen,Beitrag zur deutschsprachigen Rezeption (Übertragung)
+1508,Musik,Palestrina komponiert Missa Papae Marcelli,Meilenstein der Kirchenmusik der Renaissance
+1607,Musik,Monteverdi eröffnet Opernarbeit mit L'Orfeo,Gründungswerk der Oper
+1520,BE,Dürer malt sein Selbstbildnis,Schlüsseldokument der Renaissance-Kunst in Deutschland
+1563,BE,Grünewald vollendet Isenheimer Altar,Meisterwerk der religiösen Kunst
+1605,Mathe,Descartes veröffentlicht La Géométrie,Analytische Geometrie begründet
+1646,Mathe,Leibniz geboren,später Mit-Begründer des Infinitesimalkalküls
+1619,Physik,Kepler veröffentlicht Harmonices Mundi,Verbindung von Musik und Himmelsmechanik
+1657,Physik,Huygens erfindet die Pendeluhr,Genaueste Zeitmessung für 300 Jahre :contentReference[oaicite:1]{index=1}
+1618,Geschichte,Dreißigjähriger Krieg beginnt,Langjährige Katastrophe für Europa
+1683,Geschichte,Sieg bei Wien über Osmanen,Wende in europäischer Militärgeschichte
+1600,Deutsch,Opitz veröffentlicht sämtliche Poetik,Standardwerk der deutschen Literatur
+1670,Deutsch,Goethe geboren,später bedeutendster deutscher Dichter
+1602,Musik,Praeludium von Monteverdi prägend,Erweiterung der Oratorienmusik
+1630,Musik,Kindermann wird Nuremberger Komponist,Einfluss auf Bach-Generation :contentReference[oaicite:2]{index=2}
+1600,BE,Barockarchitektur beginnt mit Petersdom,Vielschichtigkeit der Baukunst
+1670,BE,Prager Frauenkirche wird barockisiert,Schlüsselbau der Gegenreformation
+1707,Mathe,Eulers Gamma-Funktion erscheint,Grundlage der Analysis :contentReference[oaicite:3]{index=3}
+1687,Mathe,Newton veröffentlicht Principia,Begründung der klassischen Mechanik
+1673,Physik,Huygens veröffentlicht Horologium Oscillatorium,Mathematische Mechanik begründet :contentReference[oaicite:4]{index=4}
+1685,Physik,Hooke formuliert Federgesetz (Hooke’s Law),Fundament der Elastizitätslehre
+1700,Geschichte,Uhrzeitalter der Aufklärung beginnt,Philosophische Umwälzungen
+1713,Geschichte,Friedrich Wilhelm I. preußischer König,Militärischer Aufbau Preußens
+1701,Deutsch,Leibniz veröffentlicht Monadologie,Philosophie beeinflusst deutschen Geist
+1720,Deutsch,Gottsched veröffentlicht deutsche Grammatik,Säuberung der Schriftsprache
+1722,Musik,Bach komponiert Brandenburgische Konzerte,Meisterwerke barocker Musik
+1730,Musik,Handel schreibt Messiah,Ikonisches Oratorium
+1700,BE,Schloss Schönbrunn in Bau,Prägendes Barock-Architekturdenkmal
+1755,BE,Zentrum der Neoklassik entsteht (z.B. Paris),Kultureller Wandel in Kunst & Architektur
+1801,Mathe,Galois legt Grundlagen der Gruppentheorie,Moderne Algebra
+1822,Mathe,Babbage entwirft Analytical Engine,Urform moderner Computer
+1800,Physik,Ohm formuliert Ohmsches Gesetz,Fundament der Elektrotechnik
+1831,Physik,Faraday entdeckt elektromagnetische Induktion,Grundlage für Stromerzeugung
+1815,Geschichte,Wiener Kongress beendet Napoleon,Europa neu geordnet
+1848,Geschichte,Revolutionen in Deutschland,Demokratische Bewegung gestärkt
+1819,Deutsch,Eichendorff veröffentlicht Gedichte,Romantische Literatur prägt Sprache
+1845,Deutsch,Heine publiziert Buch der Lieder,Grundstein moderner Lyrik
+1800,Musik,Beethoven komponiert Erste Symphonie,Übergang zur Klassik
+1824,Musik,Schubert schreibt Winterreise,Romantisches Liederwerk
+1800,BE,Romantische Malerei beginnt (Caspar David Friedrich),Deutsche Kunst neu orientiert
+1840,BE,Dürrer schafft Lithographie-Technik,Fotografischer Vorgang in Kunst
+1901,Mathe,Hilbert formuliert seine Probleme,Grundsatzfragen der Mathematik bestimmt
+1915,Mathe,Einstein veröffentlicht Allgemeine Relativität,Neue Geometrie der Gravitation
+1905,Physik,Einstein entwickelt Relativitätstheorie (speziell),Revolution in physikalischem Denken
+1927,Physik,Heisenberg formuliert Unschärferelation,Fundament der Quantenmechanik
+1914,Geschichte,Erster Weltkrieg beginnt,Globaler Konflikt erschüttert Europa
+1945,Geschichte,Zweiter Weltkrieg endet,Neuordnung der Weltordnung
+1900,Deutsch,Mann veröffentlicht Buddenbrooks,Meilenstein deutschsprachiger Romane
+1920,Deutsch,Thomas Mann erhält Nobelpreis,Hohe Anerkennung für deutsche Literatur
+1900,Musik,Strauss komponiert Rosenkavalier,Späte Romantik
+1913,Musik,Schoenberg schreibt Pierrot Lunaire,Einführung der Atonalität
+1900,BE,Bauhaus-Gründung 1919,Neues Design & Architektur
+1947,BE,Emil Nolde in Expressionismus,Farbenkonzept revolutionär
+2000,Mathe,Andrew Wiles beweist Fermats letzten Satz,Historischer Mathe-Erfolg
+2012,Mathe,Perelman löst Poincaré-Vermutung,Millennium-Preis gewonnen
+1905,Physik,Einstein entwickelt allgemeine Relativität,Fundament der modernen Physik
+2012,Physik,Gravitationswellen entdeckt (LIGO),Neuer Astrophysik-Zweig
+2001,Geschichte,9/11 Attentate,USA und Welt im Umbruch
+2020,Geschichte,Corona-Pandemie,Globale Gesundheitskrise
+1900,Deutsch,Fremdsprachige deutsche Populärkultur entsteht,TV & Film prägen Sprache
+2019,Deutsch,Herta Müller erhält Nobelpreis,Moderne deutschsprachige Literatur geehrt
+1900,Musik,Stravinsky schreibt Le Sacre du printemps,Meilenstein der klassischen Moderne
+2000,Musik,Film- und Popmusik dominiert,Globale Musikverbreitung
+1919,BE,Bauhaus wird Schlüssel der Moderne,Stilistik bis heute prägend
+2000,BE,Street Art & Urban Art verbreitet sich,Kunst im öffentlichen Raum
