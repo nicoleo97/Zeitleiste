@@ -24,13 +24,13 @@ events_df = pd.read_csv('data/events.csv', sep=',')
 events_df = events_df.sort_values(by=['Jahr'], ascending=True)
 
 # Sidebar für Fächerfilter
-optionen = events_df['Fach'].unique()
+auswahl_fach = ['Mathe', 'Physik', 'Deutsch','Latein', 'Geschichte', 'BE', 'Musik', 'Other']
 with st.sidebar:
     st.header("Fächerauswahl")
-    for fach in optionen:
+    for fach in auswahl_fach:
         st.checkbox(fach, value=True, key=fach)
 auswahl =  []
-for fach in optionen:
+for fach in auswahl_fach:
     if st.session_state.get(fach, True):
         auswahl.append(fach)
 
@@ -56,8 +56,10 @@ def Badge_Fach(fach):
         st.badge('LATEIN', color='red')
     elif fach == 'Geschichte':
         st.badge('GESCHICHTE', color='green')
-    elif fach == 'BE' or 'Musik':
+    elif fach == 'BE':
         st.badge('KUNST & MUSIK', color='violet')
+    elif fach == 'Musik':
+        st.badge('KUNST & MUSIK', color='violet')    
     else:
         st.badge(fach, color='gray')
 
@@ -85,7 +87,6 @@ def Inputs(events_df):
 
 # Verwaltung von Tabs
 with input_tab:
-    auswahl_fach = ['Mathe', 'Physik', 'Deutsch','Latein', 'Geschichte', 'BE', 'Musik', 'Other']
     input_form = st.form('Neuer Eintrag')
     input_form.header('Neuen Eintrag hinzufügen')
     input_jahr = input_form.number_input('Jahr', min_value=1501, max_value=2100, step=1, value=1997,help='Erreignisse vor der Zeitwende mit Minus eingeben, z.B. -500 für 500 v.Chr.')
