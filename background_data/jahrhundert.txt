@@ -1,0 +1,7 @@
+Bezeichnung,Anfang,Ende,Short
+21. Jahrhundert,2001,2100,21.Jhdt.
+20. Jahrhundert,1901,2000,20.Jhdt.
+19. Jahrhundert,1801,1900,19.Jhdt.
+18. Jahrhundert,1701,1800,18.Jhdt.
+17. Jahrhundert,1601,1700,17.Jhdt.
+16. Jahrhundert,1501,1600,16.Jhdt.
